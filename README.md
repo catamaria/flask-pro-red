@@ -7,6 +7,8 @@ https://minikube.sigs.k8s.io/docs/tutorials/multi_node/
 
 # test docker
 
+kubectl create -f web-service.yaml
+
 
 > cd flask-pro-red
 >  
