@@ -1,0 +1,19 @@
+apiVersion: skaffold/v2beta28
+kind: Config
+metadata:
+  name: user-wishlist-app
+build:
+  artifacts:
+  - image: flaskcontainer
+    docker:
+      dockerfile: Dockerfile
+deploy:
+  kubectl:
+    manifests:
+    - db-deployment.yaml
+    - db-service.yaml
+    - postgres-data-persistentvolumeclaim.yaml
+    - redis-deployment.yaml
+    - redis-service.yaml
+    - web-deployment.yaml
+    - web-service.yaml
