@@ -3,6 +3,7 @@ flask service using redis as cache and postgress as db in kubernetes
 
 # sources
 https://loft.sh/blog/docker-compose-to-kubernetes-step-by-step-migration/
+https://minikube.sigs.k8s.io/docs/tutorials/multi_node/
 
 # test docker
 
