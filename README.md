@@ -18,4 +18,9 @@ https://loft.sh/blog/docker-compose-to-kubernetes-step-by-step-migration/
 >
 >minikube start -p node3
 
+## convert to kubernetes
+>skaffold init --compose-file docker-compose.yml
+
+## run with logs 
+>skaffold run --port-forward --tail
 
