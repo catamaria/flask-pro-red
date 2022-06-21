@@ -12,9 +12,10 @@ https://loft.sh/blog/docker-compose-to-kubernetes-step-by-step-migration/
 > sudo docker-compose up -d --build
 
 
-#add nodes to minicukube
+## add nodes to minicukube
 
 >minikube start -p node2
+>
 >minikube start -p node3
 
 
