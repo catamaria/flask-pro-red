@@ -23,7 +23,7 @@ https://minikube.sigs.k8s.io/docs/tutorials/multi_node/
 To use this command you can follow the instructions from here
 https://skaffold.dev/docs/install/
 
->skaffold init --compose-file docker-compose.yml
+>skaffold init --compose-file docker-compose.yaml
 
 ## run with logs 
 >skaffold run --port-forward --tail
