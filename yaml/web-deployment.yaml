@@ -29,7 +29,7 @@ spec:
         - env:
             - name: PYTHONBUFFERED
               value: "1"
-          image: flaskcontainer
+          image: yumkira/flaskcontainer
           name: web
           ports:
             - containerPort: 80
