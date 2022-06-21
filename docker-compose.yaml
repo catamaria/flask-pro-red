@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   web:
-    image: python:3.8
+    image: yumkira/flaskcontainer
     environment:
       - PYTHONBUFFERED=1
     labels:
