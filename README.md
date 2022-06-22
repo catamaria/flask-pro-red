@@ -8,9 +8,10 @@ https://minikube.sigs.k8s.io/docs/tutorials/multi_node/
 
 ## To run project locally 
 
-1) > cd flask-pro-red
-2) > minikube start -p node
-3) > skaffold run --port-forward --tail
+1) > git clone https://github.com/catamaria/flask-pro-red.git
+2) > cd flask-pro-red
+3) > minikube start -p node
+4) > skaffold run --port-forward --tail
 
 
 ## In case the image is running locally --ignore for now since its in my hub
